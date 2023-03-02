@@ -18,7 +18,7 @@ void init_array()
 
 
 //Функция вывода и проверки двумерного массива
-bool check_array (const bool array [12][12])
+bool check_array (const bool (&array) [12][12])
 {
     bool result = false;
     cout << '\t';
